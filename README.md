@@ -1,2 +1,3 @@
 # Model-View-Controller-MVC-Challenge-Tech-Blog
 Model-View-Controller (MVC) Challenge: Tech Blog
+ITS BROKEN, Im starting to dread class, this was misserable and still doesnt work...

@@ -12,3 +12,4 @@ View the live demo at [Express MySQL App](https://express-cms.onrender.com)
 4. Run `npm run seed` to create the tables and seed the database
 5. Finally, run `npm run start` to launch the application
 6. Open the browser and navigate to `http://localhost:3000` to view the app
+https://express-mysql-new.herokuapp.com/

@@ -1,8 +1,8 @@
 const bcrypt = require('bcrypt');
-const Post = require('../models/post');
 
 // database models
 const User = require('../models/user');
+const Post = require('../models/post');
 
 const UserController = {};
 

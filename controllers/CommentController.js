@@ -1,7 +1,9 @@
 const Comment = require('../models/comment')
 
+const CommentController = {};
+
 // add a comment to database
-exports.post_new_comment = (req, res) => {
+CommentController.post_new_comment = (req, res) => {
     
     Comment.create({
         content: req.body.content,
@@ -10,9 +12,10 @@ exports.post_new_comment = (req, res) => {
     })
     .then(post => {
         res.redirect("/posts/" + req.params.id + "/view");
-        res.stop();
     })
     .catch(err => {
         console.log(err);
     });
 }
+
+module.exports = CommentController;

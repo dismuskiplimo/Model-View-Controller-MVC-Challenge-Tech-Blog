@@ -1,28 +1,14 @@
-# Model-View-Controller-MVC-Challenge-Tech-Blog
-# Blog
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  ## Description 
-  User Blog, Has login, logout, post capabilities.
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contribute](#contribute)
-  - [Tests](#tests)
-  - [Questions](#questions)
-  ## Installation
-  run mysql server and run on localhost
-  ## Usage
-  For School.
-  ## License
-  This application is licensed as a [MIT](https://opensource.org/licenses/MIT) license. Click the link for license terms.
-  ## Contributions 
-  Solo
-  ## Tests
-  N/A
-  ## Questions 
-  [Link to my GitHub Profile](https://github.com/MaxWFell)
-  
-  For any additional questions, concerns, or comments, you may email me at: 
-  
-  Maxwilliamfell@gmail.com
+# express-cms
+
+This is a Full Stack Express, MySQL, HandleBars, Node app that stores blog posts and comments.
+
+Live Demo
+View the live demo at [Express MySQL App](https://express-cms.onrender.com)
+
+## H2 How To Run
+1. install the dependencies using `node i`
+2. Start your MySQL database and create an empty database with any name, `e.g express_app`
+3. Edit the `.env` file and configure the database credentials to match yours, and use the database you created in the previous step.
+4. Run `npm run seed` to create the tables and seed the database
+5. Finally, run `npm run start` to launch the application
+6. Open the browser and navigate to `http://localhost:3000` to view the app
